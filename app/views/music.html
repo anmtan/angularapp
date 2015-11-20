@@ -1,0 +1,22 @@
+
+
+<div class="row marketing">
+  <table st-table="rowCollection" class="table table-striped">
+    <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Rank Last Week</th>
+      <th>Artist</th>
+      <th>Song</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="row in rowCollection">
+      <td>{{row.rank}}</td>
+      <td>{{row.rankLastWeek}}</td>
+      <td>{{row.artist}}</td>
+      <td>{{row.song}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

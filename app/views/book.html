@@ -1,0 +1,24 @@
+
+
+<div class="row marketing">
+  <table st-table="rowCollection" class="table table-striped">
+    <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Publisher</th>
+      <th>Publication Date</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="row in rowCollection">
+      <td>{{row.rank}}</td>
+      <td>{{row.title}}</td>
+      <td>{{row.author}}</td>
+      <td>{{row.publisher}}</td>
+      <td>{{row.publicationDate}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
